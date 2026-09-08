@@ -42,11 +42,12 @@ function curryPartial(fn, ...args) {
 
 
 ## Education
-**1. International Information Technology University – 2023-2027**
-**2. UI/UX courses from Coursera.org: https://coursera.org/share/50bea90daa47065b41807f1350edb32e**
-**3. Swift courses from Coursera.org: https://coursera.org/share/db88e8435317d586d6fbef9a039ba393**
-**4. JS courses from Coursera.org: https://coursera.org/share/76f9231bf9875a239a04a7887720f3d3**
-**5. Propmt Enginnering for ChatGPT from Coursera.org: https://coursera.org/share/bdc88819179307bcbb1e8551d45f4509**
+* **International Information Technology University (IITU)** — *Bachelor's Degree (2023 – 2027)*
+* **Certificates & Online Courses (Coursera):**
+  * [UI/UX Design Course](https://coursera.org/share/50bea90daa47065b41807f1350edb32e)
+  * [Swift Programming Course](https://coursera.org/share/db88e8435317d586d6fbef9a039ba393)
+  * [JavaScript Course](https://coursera.org/share/76f9231bf9875a239a04a7887720f3d3)
+  * [Prompt Engineering for ChatGPT](https://coursera.org/share/bdc88819179307bcbb1e8551d45f4509)
 
 
 ## English level
