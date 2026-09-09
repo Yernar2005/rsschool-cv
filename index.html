@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img src="image.png" alt="Yernar Temirkhan" />
+        <h1>Yernar Temirkhan</h1>
+        <p>Dedicated Frontend Developer</p>
+      </header>
+
+      <main>
+        <section id="contacts">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:ernar.temirkhan@icloud.com"
+                >ernar.temirkhan@icloud.com</a
+              >
+            </li>
+            <li>
+              <strong>Telegram:</strong>
+              <a href="https://t.me/smth_new" target="_blank">@smth_new</a>
+            </li>
+            <li>
+              <strong>GitHub:</strong>
+              <a href="https://github.com/Yernar2005" target="_blank"
+                >Yernar2005</a
+              >
+            </li>
+            <li><strong>Discord:</strong> <code>era20005</code></li>
+          </ul>
+        </section>
+
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            Dedicated Frontend Developer passionate about building modern web
+            applications. Experience in developing services using TypeScript,
+            React, and Go with Clean Architecture. Aiming to pursue further
+            education abroad.
+          </p>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              <strong>Languages & Technologies:</strong> TypeScript, JavaScript,
+              React, Next.js, React Native, Python, Go, Java, C++, Swift
+            </li>
+            <li><strong>Design:</strong> UI/UX (Figma)</li>
+            <li>
+              <strong>Languages Spoken:</strong> Russian (C1), Kazakh (B2),
+              English (B2)
+            </li>
+          </ul>
+        </section>
+
+        <section id="code-examples">
+          <h2>Code Examples</h2>
+          <ul>
+            <li>
+              <strong>Front-end Kanban Tracker:</strong>
+              <a
+                href="https://github.com/Yernar2005/my-kanban-tracker"
+                target="_blank"
+                >my-kanban-tracker</a
+              >
+              — University project.
+            </li>
+            <li>
+              <strong>Back-end Kanban Tracker:</strong>
+              <a
+                href="https://github.com/Yernar2005/my-kanban-tracker-backend"
+                target="_blank"
+                >my-kanban-tracker-backend</a
+              >
+              — University project.
+            </li>
+          </ul>
+
+          <h3>Code Example from CodeWars: Currying vs. Partial Application</h3>
+          <pre><code>
+                function curryPartial(fn, ...args) {
+                    if (args.length >= fn.length) {
+                        return fn(...args);
+                    }
+                return function (...nextArgs) {
+                return curryPartial(fn, ...args, ...nextArgs);
+                };
+                }
+            </code>
+        </pre>
+        </section>
+
+        <section id="experience">
+          <h2>Work Experience</h2>
+          <ul>
+            <li>
+              <strong>Next.js Developer</strong> — Netcracker.kz
+              <span>(Feb 2026 – Apr 2026)</span>
+            </li>
+            <li>
+              <strong>React Native Developer</strong> — APPS.kz
+              <span>(Aug 2025 – Oct 2025)</span>
+            </li>
+            <li>
+              <strong>Frontend & Design Developer</strong> — ZANGAR EPMC
+              <span>(Jun 2025 – Jul 2025)</span>
+            </li>
+            <li>
+              <strong>React Mentor</strong> — NIC (No Internet Connection)
+              University Club
+              <span>(Sep 2024 – Dec 2024)</span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <strong
+                >International Information Technology University (IITU)</strong
+              >
+              — Bachelor's Degree (2023 – 2027)
+            </li>
+            <li>
+              <strong>Certificates & Online Courses (Coursera):</strong>
+              <ul>
+                <li>
+                  <a
+                    href="https://coursera.org/share/50bea90daa47065b41807f1350edb32e"
+                    target="_blank"
+                    >UI/UX Design Course</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://coursera.org/share/db88e8435317d586d6fbef9a039ba393"
+                    target="_blank"
+                    >Swift Programming Course</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://coursera.org/share/76f9231bf9875a239a04a7887720f3d3"
+                    target="_blank"
+                    >JavaScript Course</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://coursera.org/share/bdc88819179307bcbb1e8551d45f4509"
+                    target="_blank"
+                    >Prompt Engineering for ChatGPT</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section id="english">
+          <h2>English level</h2>
+          <p><strong>B2 — Upper-Intermediate</strong></p>
+          <p>
+            I’ve been learning English since the 10th grade and to this day.
+            Most of the time, I prefer to read and listen rather than speak or
+            write. I’ve taken the IELTS exam several times.
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          &copy; 2026 Yernar Temirkhan.
+          <a
+            href="https://github.com/rolling-scopes-school/qualifying-stage/blob/main/tasks/cv/README.md"
+            target="_blank"
+            >RS School CV Task</a
+          >.
+          <img src="logo.png" alt="Rs school" />
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
