@@ -92,6 +92,30 @@ footer p img {
   object-fit: cover;
 }
 
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-weight: bold;
+}
+
+
+
 @media (max-width: 440px) {
   body {
     padding: 10px;
@@ -146,6 +170,13 @@ footer p img {
 
   footer p img {
     width: 20px;
+  }
+    nav ul {
+    gap: 8px;
+  }
+
+  nav ul li a {
+    font-size: 0.85em;
   }
 }
 
