@@ -92,11 +92,6 @@ footer p img {
   object-fit: cover;
 }
 
-.github-link {
-  display: inline-block;
-  margin-top: 10px;
-  font-weight: bold;
-}
 
 nav {
   margin-bottom: 30px;
@@ -113,8 +108,6 @@ nav ul {
 nav ul li a {
   font-weight: bold;
 }
-
-
 
 @media (max-width: 440px) {
   body {
@@ -171,7 +164,7 @@ nav ul li a {
   footer p img {
     width: 20px;
   }
-    nav ul {
+  nav ul {
     gap: 8px;
   }
 
